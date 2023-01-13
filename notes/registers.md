@@ -33,3 +33,7 @@ x86-64 has 16 general purpose registers ie. they can be specified as the source 
 ### The 'Latest' Registers
 
 These are named from %r8 through %r15. They also have 32-bit, 16-bit and individual byte versions. Eg: 32-bit version of %r11 is %r11d, 16-bit version is %r11w and the least significant byte is %r11b.
+
+## Nomenclature
+
+The q in movq represents quadword (ie 64bits). For double words aka long words (32bits) use l, eg: movl. For words ie 16 bits use w eg: movw and for individual bytes use b eg: movb
